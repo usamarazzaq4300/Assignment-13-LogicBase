@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.0.0\bootstrap-4.0.0\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment_13</title>
+</head>
+
+<body>
+    <div>
+        <h2 style="text-align: center; margin-top: 2%; margin-bottom: 5%; ">Assignment-13</h2>
+    </div>
+    <div class="container_fluid">
+        <div class="container">
+            <div class="row" style="text-align: center; margin-top: 5%;">
+                <div class="col-6">
+                    <h4>Converting Hours to Seconds</h4>
+                    <input type="text" id="q1" class="form" placeholder="Enter Number of hours">
+                    <p id="result1"></p>
+                    <button class="btn" onclick="hoursToSec()">Convert to Seconds</button>
+                </div>
+                <div class="col-6">
+                    <h4>Converting Age into Days</h4>
+                    <input type="text" id="q2" class="form" style="width: 70%;" placeholder="Enter Age in Years">
+                    <p id="result2"></p>
+                    <button class="btn" onclick="ageToDays()">Convert to Days</button>
+                </div>
+            </div>
+            <div class="row" style="text-align: center; margin-top: 5%;">
+                <div class="col-6">
+                    <h4>Returning True/False on Condition</h4>
+                    <input type="text" id="q3a" class="form" style="width: 40%;" placeholder="Enter First String">
+                    <input type="text" id="q3b" class="form" style="width: 40%;" placeholder="Enter Second String">
+                    <p id="result3"></p>
+                    <button class="btn" onclick="checkAns()">Check Answer</button>
+                </div>
+                <div class="col-6">
+                    <h4>Checking Leap Year</h4>
+                    <input type="text" id="q4" class="form" placeholder="Enter Year" style="width: 40%;">
+                    <p id="result4"></p>
+                    <button class="btn" onclick="leapYear()">Check Answer</button>
+                </div>
+            </div>
+            <div class="row" style="text-align: center; margin-top: 5%;">
+                <div class="col-6">
+                    <h4>Inverting an Array</h4>
+                    <p id="result5a"></p>
+                    <p id="result5b"></p>
+                    <button class="btn" onclick="invertArray()">Invert Array</button>
+                </div>
+                <div class="col-6">
+                    <h4>Converting Integers to Strings</h4>
+                    <p id="result7a"></p>
+                    <p id="result7b"></p>
+                    <button class="btn" onclick="takingArray()">Convert Array</button>
+                </div>
+            </div>
+            <div class="row" style="text-align: center; margin-top: 5%;">
+                <div class="col-2"></div>
+                <div class="col-8">
+                 <h4>Corona Cases</h4> <br>
+                 <input type="text" id="recovered" style="width: 25%;" placeholder="Recovered Cases">
+                 <input type="text" id="new" style="width: 25%;" placeholder="New Cases">
+                 <input type="text" id="active" style="width: 25%;" placeholder="Active Cases">
+                 <p id="result6"></p>
+                 <button class="btn" onclick="endCorona()">Check Answer</button>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="java.js"></script>
+</body>
+
+</html>
